@@ -15,3 +15,9 @@ $ export ANDROID_SDK=/path/to/android-sdk/
 $ bash updater-script.sh
 $ sudo rkflashkit flash @system system.rooted.img reboot
 ```
+
+If you first time use this rooting method, please run this.
+
+```
+$ adb shell monkey -p com.dlto.atom.launcher -c android.intent.category.LAUNCHER 1
+```
