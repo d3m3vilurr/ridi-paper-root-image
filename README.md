@@ -19,7 +19,7 @@ $ sudo rkflashkit flash @system system.rooted.img reboot
 If you first time use this rooting method, please run this.
 
 ```
-$ adb shell monkey -p com.dlto.atom.launcher -c android.intent.category.LAUNCHER 1
+$ adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
 ```
 
 After first run, you should install button overlay app, it help to start launcher at next boot time.
