@@ -19,7 +19,7 @@ $ sudo rkflashkit flash @system system.rooted.img reboot
 If you first time use this rooting method, please run this.
 
 ```
-$ adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
+$ adb shell am start -n com.github.yeriomin.yalpstore/com.github.yeriomin.yalpstore.UpdatableAppsActivity
 ```
 
 After first run, you should install button overlay app, it help to start launcher at next boot time.
