@@ -8,6 +8,8 @@ $ sudo dpkg -i rkflashkit_0.1.4_all.deb
 ```
 
 ## How to use
+Restart flasher mode (hold right button + confirm device shutdown)
+
 ```bash
 $ sudo rkflashkit backup @system system.img
 $ sudo chown $(id -u):$(id -g) system.img
