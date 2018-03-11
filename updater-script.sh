@@ -42,6 +42,7 @@ sync
 echo "Fixing permissions..."
 sudo chmod 06755 target/bin/su
 sudo chmod 0755 target/bin/busybox
+sudo chmod 0755 target/bin/epdblk
 sync
 
 echo "Disk usage..."
